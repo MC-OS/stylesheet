@@ -8,6 +8,7 @@ scrollbar {
     -GtkScrollbar-has-backward-stepper: false;
     -GtkScrollbar-has-forward-stepper: false;
 
+
     &:hover,
     &.hovering {
         transition: all duration("open") $easing;
@@ -26,8 +27,8 @@ scrollbar {
 
     slider {
         background-clip: padding-box;
-        background-color: rgba($fg-color, 0.6);
-        border: 1px solid rgba(bg-color(2), 0.25);
+        background-color: rgba($fg-color, 0.2);
+        border: 1px solid rgba(bg-color(2), 0.12);
         border-radius: rem(10px);
         margin: 1px;
         transition: all duration("expand") $easing;
@@ -36,24 +37,26 @@ scrollbar {
     &.horizontal {
         slider {
             min-width: rem(32px);
-            min-height: rem(3px);
+            min-height: rem(9px);
         }
 
         &:hover slider,
         &.hovering slider {
-            min-height: rem(9px);
+            background-color: rgba($fg-color, 0.6);
+            border: 1px solid rgba(bg-color(2), 0.25);
         }
     }
 
     &.vertical {
         slider {
             min-height: rem(32px);
-            min-width: rem(3px);
+            min-width: rem(9px);
         }
 
         &:hover slider,
         &.hovering slider {
-            min-width: rem(9px);
+            background-color: rgba($fg-color, 0.6);
+            border: 1px solid rgba(bg-color(2), 0.25);
         }
     }
 
@@ -64,11 +67,13 @@ scrollbar {
 
         trough {
             background-color: transparent;
+
         }
 
         &:hover trough,
         &.hovering trough {
             background-color: rgba($fg-color, 0.1);
+
         }
     }
 
