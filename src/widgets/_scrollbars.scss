@@ -37,7 +37,7 @@ scrollbar {
     &.horizontal {
         slider {
             min-width: rem(32px);
-            min-height: rem(9px);
+            min-height: rem(7px);
         }
 
         &:hover slider,
@@ -50,7 +50,7 @@ scrollbar {
     &.vertical {
         slider {
             min-height: rem(32px);
-            min-width: rem(9px);
+            min-width: rem(7px);
         }
 
         &:hover slider,
