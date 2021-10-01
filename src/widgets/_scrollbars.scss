@@ -3,11 +3,10 @@ scrolledwindow {
 }
 
 scrollbar {
-    background-color: transparent;
+    background-color: rgba(bg-color(2), 1.0);
     transition: all duration("close") $easing;
     -GtkScrollbar-has-backward-stepper: false;
     -GtkScrollbar-has-forward-stepper: false;
-
 
     &:hover,
     &.hovering {
@@ -27,7 +26,7 @@ scrollbar {
 
     slider {
         background-clip: padding-box;
-        background-color: rgba($fg-color, 0.2);
+        background-color: rgba($fg-color, 0.4);
         border: 1px solid rgba(bg-color(2), 0.12);
         border-radius: rem(10px);
         margin: 1px;
