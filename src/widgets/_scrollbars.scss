@@ -7,6 +7,8 @@ scrollbar {
     transition: all duration("close") $easing;
     -GtkScrollbar-has-backward-stepper: false;
     -GtkScrollbar-has-forward-stepper: false;
+    padding: 0px 2px;
+    $border: 1px solid rgba(black, 0.2);
 
     &:hover,
     &.hovering {
@@ -34,6 +36,8 @@ scrollbar {
     }
 
     &.horizontal {
+        border-top: $border;
+        border-right: $border;
         slider {
             min-width: rem(32px);
             min-height: rem(7px);
@@ -47,6 +51,7 @@ scrollbar {
     }
 
     &.vertical {
+        border-left: $border;
         slider {
             min-height: rem(32px);
             min-width: rem(7px);
