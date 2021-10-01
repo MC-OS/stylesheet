@@ -64,4 +64,5 @@ ItemMoveTime=200
 CascadeHide=true
 #The color (RGBA) of the badge displaying urgent count
 BadgeColor=237;;83;;83;;255
-
+#The color (RGBA) of the Indicator displaying open application
+IndicatorColor=90;;166;;255;;255

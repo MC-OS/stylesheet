@@ -57,10 +57,13 @@ GlowTime=0
 #The time (in ms) of each pulse of the hidden-dock urgent glow.
 GlowPulseTime=0
 #The hue-shift (-180 to 180) of the urgent indicator color.
-UrgentHueShift=150
+UrgentHueShift=120
 #The time (in ms) to move an item to its new position or its addition/removal to/from the dock.
 ItemMoveTime=200
 #Whether background and icons will unhide/hide with different speeds. The top-border of both will leave/hit the screen-edge at the same time.
 CascadeHide=true
 #The color (RGBA) of the badge displaying urgent count
 BadgeColor=237;;83;;83;;255
+#The color (RGBA) of the Indicator displaying open application
+IndicatorColor=90;;166;;255;;255
+
