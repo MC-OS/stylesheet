@@ -42,11 +42,16 @@ scrolledwindow {
 .view {
     background: #{'@base_color'};
     color: $fg-color;
+    -gtk-secondary-caret-color: #{'@selected_bg_color'};
 
     &:disabled {
         background: $insensitive-base-color;
         color: $insensitive-fg-color;
     }
+}
+
+scrolledwindow.terminal viewport {
+    padding: rem(12px);
 }
 
 .terminal {
@@ -55,14 +60,14 @@ scrolledwindow {
     color: #94a3a5;
     font-family: monospace;
 
-    text selection {
+    selection {
         background-color: #93a1a1;
         color: #252e32;
     }
 }
 
 rubberband {
-    background-color: #{'alpha (@accent_color, 0.15)'};
-    border: 1px solid #{'alpha (@accent_color, 0.5)'};
+    background-color: #{'alpha(@accent_color, 0.15)'};
+    border: 1px solid #{'alpha(@accent_color, 0.5)'};
     border-radius: rem(3px);
 }
