@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-22 15:36-0800\n"
-"PO-Revision-Date: 2021-11-23 17:47+0000\n"
+"POT-Creation-Date: 2022-05-18 09:40-0700\n"
+"PO-Revision-Date: 2022-05-20 06:56+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/desktop/"
 "stylesheet-extra/pl/>\n"
@@ -36,31 +36,63 @@ msgstr ""
 "Oryginalny styl Gtk.CSS zaprojektowany specjalnie dla elementary OS i jego "
 "środowiska pulpitu: Pantheon."
 
-#: data/stylesheet.appdata.xml.in:20
+#: data/stylesheet.appdata.xml.in:19
+msgid "New Features:"
+msgstr "Nowe funkcje:"
+
+#: data/stylesheet.appdata.xml.in:21
+msgid "Support for Gtk4"
+msgstr "Wsparcie dla Gtk4"
+
+#: data/stylesheet.appdata.xml.in:23 data/stylesheet.appdata.xml.in:37
+msgid "Fixes:"
+msgstr "Poprawki:"
+
+#: data/stylesheet.appdata.xml.in:25
+msgid "Fix titlebar in GNOME Web 42"
+msgstr "Naprawiono pasek tytułu w GNOME Web 42"
+
+#: data/stylesheet.appdata.xml.in:26
+msgid "Fix font style for bold labels in some languages"
+msgstr "Naprawiono styl fontu dla pogrubionych etykiet w niektórych językach"
+
+#: data/stylesheet.appdata.xml.in:27
+msgid "ModelButtons: add margin between checks, radios, and labels"
+msgstr "ModelButtons: dodano odstęp pomiędzy polami wyboru a ich opisem"
+
+#: data/stylesheet.appdata.xml.in:33
+msgid "Improvements:"
+msgstr "Ulepszenia:"
+
+#: data/stylesheet.appdata.xml.in:35
+msgid "Improve contrast of horizontal separators in dark style"
+msgstr "Zwiększono kontrast pomiędzy poziomymi granicami w stylu ciemnym"
+
+#: data/stylesheet.appdata.xml.in:39
 msgid "Use the accent color for highlighting in IBus candidate window"
 msgstr "Użyto koloru akcentu do podświetlenia w oknie kandydującym IBus"
 
-#: data/stylesheet.appdata.xml.in:21
+#: data/stylesheet.appdata.xml.in:40
 msgid "Fix font style for title labels in headerbars"
 msgstr "Naprawiono styl fontu dla etykiet tytułowych w paskach nagłówka"
 
-#: data/stylesheet.appdata.xml.in:28
+#: data/stylesheet.appdata.xml.in:47
 msgid "Support for Hdy.Tabbar"
 msgstr "Wsparcie dla Hdy.Tabbar"
 
-#: data/stylesheet.appdata.xml.in:29
+#: data/stylesheet.appdata.xml.in:48
 msgid "Fix accent class for Gtk.Scale"
 msgstr "Naprawiono klasę akcentu dla Gtk.Scale"
 
-#: data/stylesheet.appdata.xml.in:30
+#: data/stylesheet.appdata.xml.in:49
 msgid "Flat titlebars inherit background color for views and sidebars"
 msgstr ""
 "Płaskie paski tytułów dziedziczą kolor tła w widokach i w panelach bocznych"
 
-#: data/stylesheet.appdata.xml.in:37
+#: data/stylesheet.appdata.xml.in:56
 msgid "Complete redesign"
 msgstr "Kompletne przeprojektowanie"
 
-#: data/stylesheet.appdata.xml.in:45
+#: data/stylesheet.appdata.xml.in:64
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
