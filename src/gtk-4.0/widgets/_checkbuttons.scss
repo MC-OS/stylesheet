@@ -45,7 +45,7 @@ radio {
     }
 
     &:indeterminate {
-        -gtk-icon-source: -gtk-icontheme("check-mixed-symbolic");
+        -gtk-icon-source: -gtk-icontheme("list-remove-symbolic");
     }
 
     &:focus {
@@ -64,10 +64,16 @@ radio {
 
 check {
     border-radius: rem(3px);
+    &:checked {
+        -gtk-icon-source: -gtk-icontheme("object-select-symbolic");
+    }
 }
 
 radio {
     border-radius: 50%;
+    &:checked {
+        -gtk-icon-source: -gtk-icontheme("media-record-symbolic");
+    }
 }
 
 checkbutton {
