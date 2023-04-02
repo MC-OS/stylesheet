@@ -78,6 +78,7 @@ selection {
 @import '_progressbars.scss';
 @import '_scales.scss';
 @import '_scrollbars.scss';
+@import '_searchbars.scss';
 @import '_separators.scss';
 @import '_settingspages.scss';
 @import '_shortcuts.scss';
@@ -92,6 +93,6 @@ selection {
 @import '_tooltips.scss';
 @import '_treeviews.scss';
 @import '_views.scss';
-@import '_viewswitcher.scss';
 @import '_windowcontrols.scss';
 @import '_windows.scss';
+@import 'adw/_index.scss';

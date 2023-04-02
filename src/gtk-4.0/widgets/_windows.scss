@@ -22,6 +22,7 @@ window.csd {
     }
 
     &.maximized,
+    &.fullscreen,
     &.tiled-top,
     &.tiled-right,
     &.tiled-bottom,
@@ -64,6 +65,10 @@ window.csd {
         &.tiled-bottom {
             border-bottom-right-radius: 0;
         }
+    }
+
+    &.fullscreen {
+        border-radius: 0;
     }
 }
 
@@ -110,14 +115,5 @@ window.dialog {
             // Double space between content and actions
             margin-top: rem(16px);
         }
-    }
-}
-
-window.aboutdialog {
-    @extend .dialog;
-
-    .icon-dropshadow.large-icons {
-        -gtk-icon-shadow: outset-shadow(3);
-        -gtk-icon-size: 128px;
     }
 }
