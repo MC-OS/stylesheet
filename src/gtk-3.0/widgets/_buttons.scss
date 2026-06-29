@@ -89,6 +89,7 @@ button {
                 color: inherit;
             }
 
+            &.keyboard-activating,
             &:active,
             &:checked {
                 @if $color-scheme == "light" {
@@ -105,6 +106,7 @@ button {
             box-shadow: none;
         }
 
+        &.keyboard-activating,
         &:active,
         &:checked {
             background: rgba(black, 0.05);

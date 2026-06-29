@@ -68,6 +68,9 @@ notebook {
 
     viewport, stack {
         background-color: bg-color(1);
+        &:disabled {
+            background-color: bg-color(2);
+        }
     }
 }
 

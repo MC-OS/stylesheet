@@ -84,8 +84,9 @@ button {
                 }
             }
 
+            &.keyboard-activating,
             &:active,
-            &:checked {
+            &:checked  {
                 @if $color-scheme == "light" {
                     border-color: #{'alpha(mix(black, @accent_color, 0.7), 0.4)'};
                 } @else if $color-scheme == "dark" {
@@ -93,7 +94,7 @@ button {
                 }
             }
         }
-
+        &.keyboard-activating,
         &:active,
         &:checked {
             background: rgba(black, 0.05);
