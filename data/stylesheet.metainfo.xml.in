@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2020-2023 elementary, Inc. <contact@elementary.io> -->
+<component type="runtime">
+  <!-- NOTE: this ID format is required for automatic Flatpak theme matching -->
+  <id>org.gtk.Gtk3theme.elementary</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>System Stylesheet</name>
+  <summary>The look and feel for elementary OS</summary>
+  <description>
+    <p>An original Gtk.CSS stylesheet designed specifically for elementary OS and its desktop environment: Pantheon.</p>
+  </description>
+  <provides>
+    <id>io.elementary.stylesheet</id>
+  </provides>
+  <content_rating type="oars-1.1" />
+  <translation type="gettext">io.elementary.stylesheet</translation>
+  <compulsory_for_desktop>Pantheon</compulsory_for_desktop>
+  <developer id="org.elementaryos">
+    <name>elementary, Inc.</name>
+  </developer>
+  <url type="homepage">https://elementary.io</url>
+  <url type="bugtracker">https://github.com/elementary/stylesheet/issues</url>
+
+  <releases>
+    <release version="8.2.2" date="2025-12-02" urgency="medium">
+      <description>
+        <p>Improve support for LibAdwaita widgets:</p>
+        <ul>
+          <li>Add Adw.NavigationSplitView styles</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/stylesheet/issues/1055">Fade out focus rings after a timeout</issue>
+        <issue url="https://github.com/elementary/stylesheet/issues/1069">Preferences tabs focus partially stays on 'General' no matter what</issue>
+        <issue url="https://github.com/elementary/stylesheet/issues/1244">The primary text in Granite.HeaderLabel misaligned when placed in Gtk.Popover</issue>
+        <issue url="https://github.com/elementary/stylesheet/issues/1273">No expanders and sort arrows in Gtk4 TreeView widget</issue>
+        <issue url="https://github.com/elementary/stylesheet/issues/1339">Missing Latte palette</issue>
+      </issues>
+    </release>
+
+    <release version="8.2.1" date="2025-05-13" urgency="medium">
+      <description>
+        <p>Improve support for LibAdwaita widgets:</p>
+        <ul>
+          <li>Adw.ViewSwitcher: Fix crash with icon size</li>
+          <li>Add Latte stylesheet</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/fileroller/issues/49">Padding in prompts has gone</issue>
+      </issues>
+    </release>
+
+    <release version="8.2.0" date="2024-11-20" urgency="medium">
+      <description>
+        <p>Improve support for LibAdwaita widgets:</p>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/stylesheet/issues/1300">Add Support for new Adw.Dialog</issue>
+      </issues>
+    </release>
+
+    <release version="8.1.0" date="2024-07-30" urgency="medium">
+      <description>
+        <p>Improve support for LibAdwaita widgets:</p>
+        <ul>
+          <li>Adw.ToolbarView: add "bottom-bar" styles for "raised" and "border"</li>
+          <li>NavigationView: Fix missing shadows and dimming</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/stylesheet/issues/1291">Tabs on Epiphany camouflague with the new flat header</issue>
+      </issues>
+    </release>
+
+    <release version="8.0.0" date="2024-05-06" urgency="medium">
+      <description>
+        <p>Improve support for LibAdwaita widgets:</p>
+        <ul>
+          <li>Adw.ToolbarView</li>
+          <li>Adw.Toast</li>
+        </ul>
+        <p>GTK 4 Improvements:</p>
+        <ul>
+          <li>Remove styles shipped in Granite</li>
+          <li>Fix destructive menuitem</li>
+          <li>Fix size of menubars that contain buttons</li>
+          <li>Adjust warning icon color</li>
+          <li>Fix popovermenu height when it contains a single item</li>
+          <li>Flatter window control styles</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="7.3.0" date="2023-11-16" urgency="medium">
+      <description>
+        <p>Improve support for LibAdwaita widgets:</p>
+        <ul>
+          <li>Adw.TabOverview</li>
+        </ul>
+        <p>GTK 4 Improvements:</p>
+        <ul>
+          <li>Add missing ".default-decoration" style for compact headerbars</li>
+          <li>Add Latte palette</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="7.2.0" date="2023-04-25" urgency="medium">
+      <description>
+        <p>Improve support for LibAdwaita widgets:</p>
+        <ul>
+          <li>Adw.AboutWindow</li>
+          <li>Adw.MessageDialog</li>
+        </ul>
+        <p>GTK 4 Fixes:</p>
+        <ul>
+          <li>Support ".destructive" and ".suggested" in addition to ".destructive-action" and ".suggested-action"</li>
+          <li>".raised" overrides ".flat" in Buttons</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/stylesheet/issues/1253">Window margins cause titlebar issues in Mutter 44</issue>
+      </issues>
+    </release>
+
+    <release version="7.1.0" date="2023-03-24" urgency="medium">
+      <description>
+        <p>Improve support for LibAdwaita widgets:</p>
+        <ul>
+          <li>Adw.PreferencesWindow</li>
+          <li>Adw.StatusPage</li>
+          <li>Adw.TabBar</li>
+        </ul>
+        <p>GTK 4 Fixes:</p>
+        <ul>
+          <li>Correctly style list rows in popover menus</li>
+          <li>Style headerbars without ".titlebar"</li>
+          <li>Style fullscreen windows</li>
+          <li>Style SearchBars</li>
+          <li>Add spacing between HeaderBar buttons</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="7.0.1" date="2022-10-10" urgency="medium">
+      <issues>
+        <issue url="https://github.com/elementary/stylesheet/issues/1209">Headerbars: correct window control spacing in RTL, and separator width</issue>
+        <issue url="https://github.com/elementary/stylesheet/issues/1216">Fix arrow size in disabled comboboxes in popovers</issue>
+        <issue url="https://github.com/elementary/stylesheet/issues/1219">Show scale marks</issue>
+      </issues>
+    </release>
+
+    <release version="7.0.0" date="2022-04-20" urgency="medium" />
+    <release version="6.1.1" date="2021-11-23" urgency="medium" />
+    <release version="6.1.0" date="2021-10-22" urgency="medium" />
+    <release version="6.0.0" date="2021-07-15" urgency="medium" />
+  </releases>
+</component>
